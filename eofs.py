@@ -96,8 +96,6 @@ class Eofs():
                 'eof': index
             }
         )
-
-        # pcs = pcs / (np.sqrt(evals)).rename({'eof': 'pc'})
         
         return (eofs, evals, pcs)
 
